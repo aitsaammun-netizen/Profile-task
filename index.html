@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .profile-card {
+            background: #ffffff;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 240px;
+        }
+        .avatar {
+            width: 70px;
+            height: 70px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0 auto 15px auto;
+        }
+        .profile-card h2 {
+            margin: 0 0 5px 0;
+            font-size: 20px;
+            color: #333333;
+        }
+        .profile-card p {
+            margin: 0 0 20px 0;
+            color: #666666;
+            font-size: 14px;
+        }
+        .follow-btn {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+        .follow-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="avatar">A</div>
+        <h2>Ayesha Khan</h2>
+        <p>Software Developer</p>
+        <button class="follow-btn">Follow</button>
+    </div>
+
+</body>
+</html>
